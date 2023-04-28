@@ -41,7 +41,7 @@ namespace WindowsFormsApp1
                     listBox1.Items[7] = $"DOT OPPACITY: {heroArr[i].dotOppacity.ToString()}%";
 
 
-                    pictureBox1.BackgroundImage = Image.FromFile($@"D:\heroes png\{heroArr[i].name}Crosshair.jpg");
+                    pictureBox1.BackgroundImage = Image.FromFile($@"../../img\{heroArr[i].name}Crosshair.jpg");
 
 
                     listBox1.Visible = true;
